@@ -1,0 +1,17 @@
+c:\users\null\documents\visual studio 2013\Projects\StopWatch\StopWatch\bin\Debug\StopWatch.exe.config
+c:\users\null\documents\visual studio 2013\Projects\StopWatch\StopWatch\bin\Debug\StopWatch.exe
+c:\users\null\documents\visual studio 2013\Projects\StopWatch\StopWatch\bin\Debug\StopWatch.pdb
+c:\users\null\documents\visual studio 2013\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.csprojResolveAssemblyReference.cache
+c:\users\null\documents\visual studio 2013\Projects\StopWatch\StopWatch\obj\Debug\MainWindow.baml
+c:\users\null\documents\visual studio 2013\Projects\StopWatch\StopWatch\obj\Debug\MainWindow.g.cs
+c:\users\null\documents\visual studio 2013\Projects\StopWatch\StopWatch\obj\Debug\App.g.cs
+c:\users\null\documents\visual studio 2013\Projects\StopWatch\StopWatch\obj\Debug\StopWatch_MarkupCompile.cache
+c:\users\null\documents\visual studio 2013\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.g.resources
+c:\users\null\documents\visual studio 2013\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.Properties.Resources.resources
+c:\users\null\documents\visual studio 2013\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.GenerateResource.Cache
+c:\users\null\documents\visual studio 2013\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.exe
+c:\users\null\documents\visual studio 2013\Projects\StopWatch\StopWatch\obj\Debug\StopWatch.pdb
+C:\Users\NULL\Documents\Visual Studio 2013\Projects\StopWatch\StopWatch\obj\Debug\NumberUp.baml
+C:\Users\NULL\Documents\Visual Studio 2013\Projects\StopWatch\StopWatch\obj\Debug\NumberUp.g.cs
+C:\Users\NULL\Documents\Visual Studio 2013\Projects\StopWatch\StopWatch\obj\Debug\StopWatch_MarkupCompile.lref
+C:\Users\NULL\Documents\Visual Studio 2013\Projects\StopWatch\StopWatch\obj\Debug\GeneratedInternalTypeHelper.g.cs

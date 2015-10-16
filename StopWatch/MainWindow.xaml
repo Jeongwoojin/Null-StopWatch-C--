@@ -1,0 +1,30 @@
+﻿<Window
+    Icon="1444852984_timer.ico"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:StopWatch" x:Class="StopWatch.MainWindow"
+        Height="115" Width="366" Loaded="Window_Loaded" AllowsTransparency="True" WindowStyle="None">
+    <Border BorderThickness="3" BorderBrush="#FF39393D">
+        <Grid Background="#FF2D2D30">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="0*"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="tb_time" TextWrapping="Wrap" Text="00:00:00" Margin="117,24,0,36" Width="142" FontSize="35" HorizontalAlignment="Left" Background="#FF2D2D30" Foreground="White"/>
+            <Border Margin="18,83,162,6">
+                <Grid>
+                    <local:NumberUp x:Name="nu_hour" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="31" Margin="-11,1,0,-1"/>
+                    <TextBlock HorizontalAlignment="Left" Height="20" Margin="23,1,0,-1" TextWrapping="Wrap" VerticalAlignment="Top" Width="34" Text="시간" Foreground="White"/>
+                    <local:NumberUp x:Name="nu_min" HorizontalAlignment="Left" Height="20" Margin="57,0,0,0" VerticalAlignment="Top" Width="31"/>
+                    <TextBlock HorizontalAlignment="Left" Height="20" Margin="91,0,0,0" TextWrapping="Wrap" Text="분 " VerticalAlignment="Top" Width="22" Foreground="White"/>
+                    <TextBlock HorizontalAlignment="Left" Height="20" Margin="153,0,0,0" TextWrapping="Wrap" Text="초 " VerticalAlignment="Top" Width="22" Foreground="White"/>
+                    <local:NumberUp x:Name="nu_sec" HorizontalAlignment="Left" Height="20" Margin="116,0,0,0" VerticalAlignment="Top" Width="31"/>
+                </Grid>
+            </Border>
+            <Button x:Name="bt_add" Content="Set" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="203,82,0,0" Click="bt_add_Click" BorderBrush="White" Background="#FF2D2D30" Foreground="White" FontFamily="Microsoft Tai Le"/>
+            <Rectangle x:Name="rt_bar" Fill="#FF39393D" HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="362" PreviewMouseLeftButtonDown="rt_bar_PreviewMouseLeftButtonDown"/>
+            <TextBlock x:Name="tb_bartext" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Null StopWatch" VerticalAlignment="Top" Margin="137,3,0,0" Foreground="White" PreviewMouseLeftButtonDown="tb_bartext_PreviewMouseLeftButtonDown"/>
+            <Rectangle x:Name="rt_Exit" Fill="Gray" HorizontalAlignment="Left" Height="17" Margin="340,2,0,0" Stroke="#FF2D2D30" VerticalAlignment="Top" Width="17" MouseUp="rt_Exit_MouseUp"/>
+            <CheckBox x:Name="cb_top" Content="최상위" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="290,83,0,0" BorderBrush="#FF5B5B5B" Foreground="White" Checked="cb_top_Checked"/>
+        </Grid>
+    </Border>
+</Window>

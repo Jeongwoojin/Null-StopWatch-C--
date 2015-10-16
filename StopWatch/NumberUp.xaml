@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="StopWatch.NumberUp"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Height="20.272" Width="31.25" BorderBrush="#FFA84949">
+    <Grid>
+        <TextBlock x:Name="tb_down" Margin="19,3,1,1" TextWrapping="Wrap" Text="↓" Background="#FF2D2D30" TextAlignment="Center" PreviewMouseLeftButtonUp="tb_down_PreviewMouseLeftButtonUp" Foreground="White"/>
+        <TextBlock x:Name="tb_up" Margin="19,0,1,9" TextWrapping="Wrap" Background="#FF2D2D30" TextAlignment="Center" PreviewMouseLeftButtonUp="tb_up_PreviewMouseLeftButtonUp" Foreground="White"><Run Text="↑"/><InlineUIContainer>
+        	
+        	</InlineUIContainer></TextBlock>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="1" Margin="20,10,0,0" VerticalAlignment="Top" Width="11"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="1" Margin="20,0,0,0" VerticalAlignment="Top" Width="11"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="1" Margin="20,19,0,0" VerticalAlignment="Top" Width="11"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="21" Margin="30,0,0,0" VerticalAlignment="Top" Width="1"/>
+        <TextBox x:Name="tb_text" TextWrapping="Wrap" Width="20" Text="0" Margin="0,0,11,0" BorderBrush="White" Background="#FF2D2D30" Foreground="White" TextChanged="tb_text_TextChanged"/>
+
+    </Grid>
+</UserControl>
